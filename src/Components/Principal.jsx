@@ -53,7 +53,7 @@ const Principal = () => {
   React.useEffect(() => {
     renderWords();
     AOS.init();
-  }, []);
+  });
 
   return (
     <div className="h-screen flex items-center md:px-36 -mt-16 dark:bg-dark-green-dark px-5 ">

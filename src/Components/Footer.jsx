@@ -12,7 +12,7 @@ const Footer = () => {
   };
 
   React.useEffect(() => {
-    //visits();
+    visits();
   }, []);
 
   return (

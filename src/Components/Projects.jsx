@@ -10,11 +10,11 @@ const Projects = (props) => {
   const [actualIndex, setactualIndex] = React.useState(0);
   const [actualPosition, setactualPosition] = React.useState(0);
 
-  const wait = async (ms) => {
-    return new Promise((resolve) => {
-      setTimeout(resolve, ms);
-    });
-  };
+  // const wait = async (ms) => {
+  //   return new Promise((resolve) => {
+  //     setTimeout(resolve, ms);
+  //   });
+  // };
 
   const executeScroll = (ref, index) => {
     // console.log(myRef.current.scrollLeft);
@@ -25,25 +25,20 @@ const Projects = (props) => {
       block: "nearest",
     });
   };
-
-  const moveSlides = (e) => {
-    console.log(e);
-  };
-
-  const renderCarrousel = async () => {
-    while (true) {
-      if (buttonsRef.current.length !== 0) {
-        for (const el of buttonsRef.current) {
-          el.click();
-          await wait(1000);
-        }
-      }
-    }
-  };
+  // const renderCarrousel = async () => {
+  //   while (true) {
+  //     if (buttonsRef.current.length !== 0) {
+  //       for (const el of buttonsRef.current) {
+  //         el.click();
+  //         await wait(1000);
+  //       }
+  //     }
+  //   }
+  // };
   React.useEffect(() => {
     itemsRef.current = itemsRef.current.slice(0, props.items.length);
     buttonsRef.current = buttonsRef.current.slice(0, props.items.length);
-  }, []);
+  });
   // console.log(window.scrollY);
   // console.log(window.screen.height);
 
