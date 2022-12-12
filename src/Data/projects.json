@@ -1,0 +1,45 @@
+{
+  "projects": [
+    {
+      "img": "/projects/quantum_lp.jpg",
+      "title": "Quantum Landing Page",
+      "description": "Quantum website frontend developed in React.js ",
+      "tags": ["web", "typescript", "react.js", "professional"]
+    },
+    {
+      "img": "/projects/quantum_si.jpg",
+      "title": "Quantum I.S Module",
+      "description": "Quantum I.S module for billing and a helper for device repairing workflow (improving communication and efficiency), developed in React.js using Firebase ",
+      "tags": ["web", "typescript", "react.js", "firebase", "professional"]
+    },
+    {
+      "img": "https://camo.githubusercontent.com/2ce1f130597a64fd1ce8ab935c4053fd2dd7d345109476261e8ab4de49ad6451/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6e525a4b776536475857394d7a55504e54652f67697068792e676966",
+      "title": "PsyBrain",
+      "description": "COVID-19 metal health app, includes a chat with a healthcare professional and relevant information about the virus",
+      "link": "https://github.com/Rguarnizo/PsyBrain",
+      "tags": [
+        "mobile",
+        "flutter",
+        "firebase",
+        "NLP",
+        "IBM ML Services",
+        "SCRUM",
+        "academic"
+      ]
+    },
+    {
+      "img": "/projects/poptr.jpg",
+      "title": "Poptr",
+      "description": "Social network using React.js + Bootstrap applying concepts of data structures",
+      "link": "https://modest-chandrasekhar-9dd1a6.netlify.app/",
+      "tags": [
+        "web",
+        "typescript",
+        "react.js",
+        "firebase",
+        "bootstrap",
+        "academic"
+      ]
+    }
+  ]
+}
