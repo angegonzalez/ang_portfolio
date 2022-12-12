@@ -19,7 +19,7 @@ const Footer = () => {
 
   return (
     <>
-      <div className="bg-green-800 h-auto bg-dark-green-dark pt-10">
+      <div className=" h-auto bg-dark-green-dark pt-10">
         <div className="">
           <div className="flex flex-row justify-evenly items-center mb-10 lg:mb-0 px-8">
             <div
