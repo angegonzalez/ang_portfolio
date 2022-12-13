@@ -21,7 +21,7 @@ const Experience = () => {
             data-aos="flip-down" data-aos-duration="1000"
             name="experience"
           >
-            <p className="font-bold text-2xl xl:text-4xl 2xl:text-7xl text-left leading-none   text-dark-green-light">
+            <p className="font-bold text-2xl xl:text-4xl text-left leading-none   text-dark-green-light">
               Related experience
             </p>
             <div
@@ -33,10 +33,10 @@ const Experience = () => {
                 <img src="/assets/icons/chart-iso-color.svg" alt="" />
               </div>
               <div className="flex w-auto flex-col">
-                <p className="font-bold text-xl xl:text-2xl 2xl:text-4xl text-left leading-none  text-dark-green-light">
+                <p className="font-bold text-xl xl:text-2xl text-left leading-none  text-dark-green-light">
                   DNED - Universidad Nacional de Colombia
                 </p>
-                <p className="text-md xl:text-lg 2xl:text-2xl text-left  text-dark-green-light font-medium my-2">
+                <p className="text-md xl:text-lg text-left  text-dark-green-light font-medium my-2">
                   Sept/22 - Dec/22
                 </p>
                 <p className="text-dark-green-light text-left">
@@ -61,10 +61,10 @@ const Experience = () => {
                 <img src="/assets/icons/thumb-up-dynamic-color.svg" alt="" />
               </div>
               <div className="flex w-auto flex-col">
-                <p className="font-bold text-xl xl:text-2xl 2xl:text-4xl text-left leading-none text-dark-green-light">
+                <p className="font-bold text-xl xl:text-2xl text-left leading-none text-dark-green-light">
                   PLaS - Universidad Nacional de Colombia
                 </p>
-                <p className="text-md xl:text-lg 2xl:text-2xl text-left text-dark-green-light font-medium my-2">
+                <p className="text-md xl:text-lg text-left text-dark-green-light font-medium my-2">
                   Aug/22 - Dec/22
                 </p>
                 <p className="text-dark-green-light text-left">
@@ -92,10 +92,10 @@ const Experience = () => {
                 <img src="/assets/icons/computer-dynamic-color.svg" alt="" />
               </div>
               <div className="flex w-auto flex-col">
-                <p className="font-bold text-xl xl:text-2xl 2xl:text-4xl text-left leading-none   text-dark-green-light">
+                <p className="font-bold text-xl xl:text-2xl text-left leading-none   text-dark-green-light">
                   QA Analyst - Transport Systems S.A.S
                 </p>
-                <p className="text-md xl:text-lg 2xl:text-2xl text-left   text-dark-green-light font-medium my-2">
+                <p className="text-md xl:text-lg text-left text-dark-green-light font-medium my-2">
                   Jul/21 - Jul/22
                 </p>
                 <p className="  text-dark-green-light text-left">

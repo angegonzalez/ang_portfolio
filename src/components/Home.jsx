@@ -26,12 +26,12 @@ const Home = () => {
       <div className="flex lg:grid lg:grid-cols-2 justify-center ">
         <div className="w-5/6 lg:w-4/6 justify-self-center my-16 lg:col-span-1" data-aos="fade-up" data-aos-duration="1500">
             <p
-              className="font-bold text-3xl xl:text-5xl 2xl:text-7xl navbar-text text-left leading-none   self-center text-dark-green-light"
+              className="font-bold text-3xl xl:text-5xl text-left leading-none self-center text-dark-green-light"
             >
               Angel Mateo González Bejarano
             </p>
             <p
-              className="text-md xl:text-lg navbar-text text-left font-normal   mt-5 text-dark-green-light"
+              className="text-md xl:text-lg navbar-text text-left font-normal mt-5 text-dark-green-light"
             >
               <br/>
               Computer & Systems Engineering student at Universidad Nacional de
