@@ -22,7 +22,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="bg-dark-green-dark h-auto ">
+    <div className="bg-dark-green-dark lg:h-screen h-auto ">
       <div className="flex lg:grid lg:grid-cols-2 justify-center ">
         <div className="w-5/6 lg:w-4/6 justify-self-center my-16 lg:col-span-1" data-aos="fade-up" data-aos-duration="1500">
             <p

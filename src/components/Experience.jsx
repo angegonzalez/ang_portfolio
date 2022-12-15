@@ -3,7 +3,7 @@ import RiveComponent from "@rive-app/react-canvas";
 
 const Experience = () => {
   return (
-    <div className="flex flex-col bg-dark-green-dark h-auto justify-center items-center lg:pt-28 lg:pb-10 pt-14">
+    <div className="flex flex-col bg-dark-green-dark h-auto justify-center items-center pt-14 lg:pt-0 lg:pb-10">
       <div className="lg:grid lg:grid-rows-3 lg:grid-cols-2 flex flex-col">
         <div className="hidden lg:block lg:row-span-3">
           <div className="w-full h-full">
